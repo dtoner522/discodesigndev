@@ -1,0 +1,138 @@
+body, html {
+    height: 100%;
+  }
+  
+  body {
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1617270733/disc4_yptvd2.png");
+    background-attachment: scroll;
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin :0px;
+    background-attachment: fixed;
+  }
+  #navposit {
+    width: 100%;
+    /*box-shadow: 0 2px 4px 0 rgba(0,0,0,.1); */
+  
+    /*pushes down bg without this */
+    /* position: absolute; 
+    background: none; */
+  }
+  
+  .box, .box-2 {
+    display: flex;
+    font-family: "Jost";
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    border: white solid 1px;
+    max-height: 50%;
+    margin: 0;
+    overflow: hidden;
+    min-height: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    height: 90vh;
+  }
+  
+  .about {
+    font-family: "Jost";
+    color: white;
+    font-size: 30px;
+    text-align: left;
+  }
+  
+  .protocontent {
+    font-family: "Open Sans";
+    display: block;
+    font-size: 15px;
+    color: #A0A0A0;
+    background-color: white;
+    position: absolute;
+    width:70%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
+    z-index: 1;
+  }
+  
+  .navlink:link, .navlink:visited {
+    color:	white;
+    font-family: "Jost";
+    font-weight: 300;
+    font-size: 25px;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-right: 12px;
+    text-decoration: none;
+  }
+  
+   #navbarDropdown {
+    color: white;
+    font-family: "Jost";
+    font-weight: 400;
+    font-style: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline;
+  }
+  #navbarDropdown:hover {
+    color: #66CCCC;
+  }
+  #web0:hover{
+    color:#33FFFF;
+  }
+  #web1:hover {
+   color:#66CCCC ;
+  }
+  #web2:hover {
+    color: #56c1d1 ;
+   }
+   #web3:hover {
+    color: #52b4d3 ;
+   }
+   #web4:hover {
+    color: #6699CC ;
+   }
+   #web5:hover {
+    color:#3792E6;
+   }
+   .col-md-4 {
+     background-color: transparent;
+   }
+  
+  
+  
+  /* .wrapper {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 85vh;
+    gap: 5px 5px;
+    grid-template-areas: "header header header" 
+                          "nav nav nav"
+                          "main main main" 
+                         "footer footer footer";
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 1rem;
+    margin-left: 1rem;
+  } */
+  
+  
+  
+  /* .row {
+    font-size: clamp(1rem, -0.875rem + 8.333vw, 3.5rem);
+  } */
