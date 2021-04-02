@@ -4,8 +4,9 @@ body, html {
   
   body {
     /* The image used */
-    background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1617270733/disc4_yptvd2.png");
+    /* background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1617270733/disc4_yptvd2.png"); */
     background-attachment: scroll;
+    background-color: lightblue;
   
     /* Full height */
     height: 100%;
@@ -25,6 +26,10 @@ body, html {
     /* position: absolute; 
     background: none; */
   }
+
+  .container {
+    height: 90vh;
+  }
   
   .box, .box-2 {
     display: flex;
@@ -39,32 +44,25 @@ body, html {
     min-height: 50%;
     justify-content: center;
     align-items: center;
-  }
-  
-  .container {
-    height: 90vh;
+    text-decoration: none;
   }
   
   .about {
     font-family: "Jost";
     color: white;
-    font-size: 30px;
+    font-size: 2rem;
     text-align: left;
+    border: white solid 1px;
   }
-  
-  .protocontent {
-    font-family: "Open Sans";
-    display: block;
-    font-size: 15px;
-    color: #A0A0A0;
+
+  .about-show {
+    font-family: "Jost";
+    font-size: 2rem;
+    text-align: left;
+    max-height: 100%;
+    min-height: 100%;
+    color: grey;
     background-color: white;
-    position: absolute;
-    width:70%;
-    height: 100%;
-    left: 0;
-    right: 0;
-    margin: 0 auto; 
-    z-index: 1;
   }
   
   .navlink:link, .navlink:visited {
@@ -112,27 +110,62 @@ body, html {
    .col-md-4 {
      background-color: transparent;
    }
+
+   a, a:hover {
+     text-decoration: none;
+     color: inherit;
+   }
+
+   /* -------------------- */
+   
+         /* 1953 */
+  .overlay-1953 {
+    background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1617394116/DDD/Screenshot_2021-04-02_22_00_01_uof8ug.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+
+  .web-card:hover .overlay-1953 {
+  width: 100%;
+}
+
+       /* Island Hopper */
+  .overlay-IH {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.web-card:hover:hover .overlay-IH {
+  bottom: 0;
+  height: 100%;
+}
+
+
+
   
-  
-  
-  /* .wrapper {
-    display: grid;
-    place-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 85vh;
-    gap: 5px 5px;
-    grid-template-areas: "header header header" 
-                          "nav nav nav"
-                          "main main main" 
-                         "footer footer footer";
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 1rem;
-    margin-left: 1rem;
-  } */
-  
-  
-  
-  /* .row {
-    font-size: clamp(1rem, -0.875rem + 8.333vw, 3.5rem);
-  } */
+  .text {
+    color: slategray;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
