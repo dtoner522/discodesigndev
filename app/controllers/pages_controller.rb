@@ -2,7 +2,17 @@ class PagesController < ApplicationController
   def home
   end
 
-  def website1
+  def w1953
   end
+
+  def islandhopper
+  end
+
+  def ovrwhelm
+  end
+
+  def contact
+  end
+
 
 end

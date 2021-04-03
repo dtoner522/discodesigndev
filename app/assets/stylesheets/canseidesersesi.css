@@ -30,6 +30,10 @@ body, html {
   .container {
     height: 90vh;
   }
+
+  .col-md-4 {
+    background-color: transparent;
+  }
   
   .box, .box-2 {
     display: flex;
@@ -37,7 +41,7 @@ body, html {
     color: white;
     font-size: 2rem;
     text-align: left;
-    border: white solid 1px;
+    border: white solid 2px;
     max-height: 50%;
     margin: 0;
     overflow: hidden;
@@ -52,7 +56,7 @@ body, html {
     color: white;
     font-size: 2rem;
     text-align: left;
-    border: white solid 1px;
+    border: white solid 2px;
   }
 
   .about-show {
@@ -107,16 +111,18 @@ body, html {
    #web5:hover {
     color:#3792E6;
    }
-   .col-md-4 {
-     background-color: transparent;
-   }
 
    a, a:hover {
-     text-decoration: none;
-     color: inherit;
-   }
+    text-decoration: none;
+    color: inherit;
+  }
+  #web1, #web2, #web3 {
+    color: slategray;
+  }
 
-   /* -------------------- */
+
+
+   /* --------website-cards------------ */
    
          /* 1953 */
   .overlay-1953 {
@@ -130,7 +136,7 @@ body, html {
     overflow: hidden;
     width: 0;
     height: 100%;
-    transition: .5s ease;
+    transition: .5s ease-out;
   }
 
   .web-card:hover .overlay-1953 {
@@ -139,6 +145,9 @@ body, html {
 
        /* Island Hopper */
   .overlay-IH {
+  background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1617445489/DDD/IH_bn7rbw.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
   bottom: 100%;
   left: 0;
@@ -155,17 +164,22 @@ body, html {
   height: 100%;
 }
 
+/* -------icon links----- */
 
-
-  
-  .text {
-    color: slategray;
-    font-size: 2rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-  }
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  opacity: 0.5;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
