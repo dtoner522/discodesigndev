@@ -63,10 +63,61 @@ body, html {
     font-family: "Jost";
     font-size: 2rem;
     text-align: left;
-    max-height: 100%;
+    max-height: auto;
     min-height: 100%;
-    color: grey;
-    background-color: white;
+    color: slategray;
+    background-color: none;
+    overflow: visible;
+  }
+
+  .pic-box {
+    display: flex;
+    font-family: "Jost";
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    max-height: 50%;
+    margin: 0;
+    overflow: hidden;
+    min-height: 50%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .pic-box-1953B {
+    max-height: 75%;
+    min-height: 75%;
+  }
+
+  .pic-box-1953S {
+    max-height: 25%;
+    min-height: 25%;
+  }
+
+
+  /* ------images-------- */
+
+  .image-1953 {
+    height: 100%;
+    width: auto;
+    background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1617474049/DDD/19531_h6rt0z.png");
+    background-size: cover;
+
+  }
+
+  p {
+    font-family: "Open Sans";
+    color: slategray;
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  title {
+    font-family: "Jost";
+    font-size: 2rem;
+    text-align: left;
+    color: slategray;
   }
   
   .navlink:link, .navlink:visited {
