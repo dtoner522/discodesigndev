@@ -90,9 +90,8 @@ body, html {
     min-height: 75%;
   }
 
-  .pic-box-1953S {
-    max-height: 25%;
-    min-height: 25%;
+  .pic-box-IH {
+    height: 50%;
   }
 
 
@@ -233,4 +232,8 @@ body, html {
 }
 .footer .fa-heart {
   color: #D23333;
+}
+
+.carousel {
+  border: whitesmoke 2px solid;
 }
