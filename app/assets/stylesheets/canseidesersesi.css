@@ -4,7 +4,7 @@ body, html {
   
   body {
     /* The image used */
-    /* background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1617270733/disc4_yptvd2.png"); */
+    background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1617270733/disc4_yptvd2.png");
     background-attachment: scroll;
     background-color: lightblue;
   
@@ -86,8 +86,8 @@ body, html {
   }
 
   .pic-box-1953B {
-    max-height: 75%;
-    min-height: 75%;
+    max-height: 50%;
+    min-height: 50%;
   }
 
   .pic-box-IH {
@@ -229,9 +229,6 @@ body, html {
 }
 .footer-links a:hover {
   opacity: 1;
-}
-.footer .fa-heart {
-  color: #D23333;
 }
 
 .carousel {
