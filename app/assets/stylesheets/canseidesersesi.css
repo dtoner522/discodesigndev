@@ -64,7 +64,7 @@ body, html {
     font-size: 2rem;
     text-align: left;
     max-height: auto;
-    min-height: 100%;
+    min-height: 85%;
     color: slategray;
     background-color: none;
     overflow: visible;
@@ -87,10 +87,9 @@ body, html {
 
   .profile-box {
     display: flex;
-    max-height: 100%;
+    max-height: 85%;
     margin: 0;
     overflow: hidden;
-    min-height: 100%;
 
   }
 
@@ -201,6 +200,7 @@ body, html {
   .overlay-1953 {
     background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1617394116/DDD/Screenshot_2021-04-02_22_00_01_uof8ug.png");
     background-size: cover;
+    background-position: center;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -220,7 +220,7 @@ body, html {
   .overlay-IH {
   background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1617445489/DDD/IH_bn7rbw.png");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center;
   position: absolute;
   bottom: 100%;
   left: 0;
@@ -232,9 +232,32 @@ body, html {
   transition: .5s ease;
 }
 
-.web-card:hover:hover .overlay-IH {
+.web-card:hover .overlay-IH {
   bottom: 0;
   height: 100%;
+}
+
+
+/* -----Ovrwhelm----- */
+
+.overlay-OW {
+  background-image: url("https://res.cloudinary.com/dtoner522/image/upload/v1617971385/DDD/ovrwhelm_qaab84.png");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.web-card:hover .overlay-OW {
+  width: 100%;
+  left: 0;
 }
 
 /* -------icon links----- */
